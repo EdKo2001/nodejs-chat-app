@@ -10,5 +10,5 @@ package-lock.json
 dev.env
 
 # logs
-/logs/access.log
-/logs/error.log
+/src/logs/access.log
+/src/logs/error.log
