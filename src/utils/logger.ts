@@ -3,6 +3,12 @@ import morgan from "morgan";
 import fs from "fs";
 import path from "path";
 
+const logsDirPath = path.join(__dirname, "..", "logs");
+// Create the logs directory if it doesn't exist
+if (!fs.existsSync(logsDirPath)) {
+  fs.mkdirSync(logsDirPath);
+}
+
 // Set up morgan logger middleware
 const accessLogStream = fs.createWriteStream(
   path.join(__dirname, "..", "logs", "access.log"),

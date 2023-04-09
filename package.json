@@ -33,6 +33,7 @@
     "@types/compression": "^1.7.2",
     "@types/express": "^4.17.17",
     "@types/morgan": "^1.9.4",
+    "@types/socket.io": "^3.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   }
