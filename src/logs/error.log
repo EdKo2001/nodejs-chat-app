@@ -1,0 +1,5 @@
+[GET / 500] Assignment to constant variable.
+[GET / 500] Assignment to constant variable.
+[2023-04-09T14:57:08.887Z] [GET / 500] Assignment to constant variable.  
+[2023-04-09T14:58:38.991Z] [GET / 500] Assignment to constant variable. (C:\Users\eduard.DESKTOP-33G4AVV\Desktop\nodejs-chat-app\node_modules\express\lib\router\layer.js:95)
+[2023-04-09T15:00:29.821Z] [GET / 500] Assignment to constant variable. [at C:\Users\eduard.DESKTOP-33G4AVV\Desktop\nodejs-chat-app\index.ts:29:6]
