@@ -81,7 +81,9 @@ $messageForm.addEventListener("submit", e => {
     $messageFormInput.focus();
 
     if (error) {
-      return console.error(error);
+      return console.log(error);
+    } else {
+      console.log("Message delivered!");
     }
   });
 });
@@ -101,6 +103,9 @@ $sendLocationBtn.addEventListener("click", () => {
         },
         error => {
           $sendLocationBtn.removeAttribute("disabled");
+          if (!error) {
+            console.log("Location shared!");
+          }
         }
       );
     });

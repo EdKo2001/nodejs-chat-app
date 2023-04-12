@@ -1,4 +1,5 @@
 /* General Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -44,16 +45,19 @@ button {
   color: white;
   font-size: 16px;
   transition: background 0.3s ease;
-}
-button:hover {
-  background: #6b47b8;
-}
-button:disabled {
-  cursor: default;
-  background: rgba(124, 92, 191, 0.5803921569);
+
+  &:hover {
+    background: #6b47b8;
+  }
+
+  &:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+  }
 }
 
 /* Join Page Styles */
+
 .centered-form {
   background: #333744;
   width: 100vw;
@@ -70,15 +74,19 @@ button:disabled {
   width: 250px;
 }
 
-.centered-form button {
-  width: 100%;
-}
-.centered-form input {
-  margin-bottom: 16px;
-  width: 100%;
+.centered-form {
+  button {
+    width: 100%;
+  }
+
+  input {
+    margin-bottom: 16px;
+    width: 100%;
+  }
 }
 
 /* Chat Page Layout */
+
 .chat {
   display: flex;
 }
@@ -92,6 +100,7 @@ button:disabled {
 }
 
 /* Chat styles */
+
 .chat__main {
   flex-grow: 1;
   display: flex;
@@ -106,6 +115,7 @@ button:disabled {
 }
 
 /* Message Styles */
+
 .message {
   margin-bottom: 16px;
 }
@@ -126,29 +136,34 @@ button:disabled {
 }
 
 /* Message Composition Styles */
+
 .compose {
   display: flex;
   flex-shrink: 0;
   margin-top: 16px;
   padding: 24px;
-}
-.compose form {
-  display: flex;
-  flex-grow: 1;
-  margin-right: 16px;
-}
-.compose input {
-  border: 1px solid #eeeeee;
-  width: 100%;
-  padding: 12px;
-  margin: 0 16px 0 0;
-  flex-grow: 1;
-}
-.compose button {
-  font-size: 14px;
+
+  form {
+    display: flex;
+    flex-grow: 1;
+    margin-right: 16px;
+  }
+
+  input {
+    border: 1px solid #eeeeee;
+    width: 100%;
+    padding: 12px;
+    margin: 0 16px 0 0;
+    flex-grow: 1;
+  }
+
+  button {
+    font-size: 14px;
+  }
 }
 
 /* Chat Sidebar Styles */
+
 .room-title {
   font-weight: 400;
   font-size: 22px;
@@ -167,4 +182,4 @@ button:disabled {
   list-style-type: none;
   font-weight: 300;
   padding: 12px 24px 0 24px;
-}/*# sourceMappingURL=styles.css.map */
+}

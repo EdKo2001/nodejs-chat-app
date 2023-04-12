@@ -1,4 +1,3 @@
-export { accessLogger, errorLogger } from "./logger";
 export {
   generateMessage,
   generateLocationMessage,
