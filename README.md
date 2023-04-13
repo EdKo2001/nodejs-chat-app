@@ -1,4 +1,4 @@
-<h1 align="center">Simple Node.js chat applicayion</h1>
+<h1 align="center">Simple Node.js Chat Application</h1>
 
 ## Stack
 
