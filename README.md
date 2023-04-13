@@ -5,4 +5,3 @@
 - Node
 - Socket.io
 - TypeScript
-- SASS
