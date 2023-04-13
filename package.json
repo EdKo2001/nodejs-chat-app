@@ -25,6 +25,7 @@
     "socket.io": "^4.6.1"
   },
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "@types/bad-words": "^3.0.1",
     "@types/express": "^4.17.17",
     "@types/socket.io": "^3.0.2",
